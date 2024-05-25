@@ -1,0 +1,1 @@
+C:\Users\andre\source\repos\TemperatureConverter\TemperatureConverter\TemperatureConverter.csproj;x86
