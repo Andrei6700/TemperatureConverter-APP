@@ -13,17 +13,17 @@ namespace TemperatureConverter
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 0.0.0.0")]
-        private global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 0.0.0.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace TemperatureConverter
     }
 }
 
-namespace TemperatureConverter.TemperatureConverter_XamlTypeInfo
+namespace TemperatureConverter.Weather_App_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace TemperatureConverter.TemperatureConverter_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::TemperatureConverter.TemperatureConverter_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::TemperatureConverter.Weather_App_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

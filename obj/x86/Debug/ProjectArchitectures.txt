@@ -1,1 +1,1 @@
-C:\Users\andre\source\repos\TemperatureConverter\TemperatureConverter\TemperatureConverter.csproj;x86
+C:\Users\andre\source\repos\TemperatureConverter\TemperatureConverter\Weather-App.csproj;x86

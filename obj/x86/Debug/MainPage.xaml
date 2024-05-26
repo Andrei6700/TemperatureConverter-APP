@@ -10,24 +10,36 @@
 
     <Grid VerticalAlignment="Center">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/> <!-- Input area -->
-            <RowDefinition Height="Auto"/> <!-- Button area -->
-            <RowDefinition Height="*"/>    <!-- History list -->
-            <RowDefinition Height="*"/>    <!-- Weather display -->
+            <RowDefinition Height="Auto"/>
+            <!-- Title area -->
+            <RowDefinition Height="Auto"/>
+            <!-- Input area -->
+            <RowDefinition Height="Auto"/>
+            <!-- Button area -->
+            <RowDefinition Height="*"/>
+            <!-- History list -->
+            <RowDefinition Height="*"/>
+            <!-- Weather display -->
         </Grid.RowDefinitions>
 
+        <!-- The Real Title  -->
+        <TextBlock Text="Weather App " FontSize="40" Margin="0" Grid.Row="0" HorizontalAlignment="Center"/>
+        
+        <!-- Title area -->
+        <TextBlock Text="⛈🌤⛅☁🌥🌦🌧🌨🌩🌪" FontSize="30" Margin="50" Grid.Row="0" HorizontalAlignment="Center"/>
+
         <!-- Input area -->
-        <TextBox x:ConnectionId='2' x:Name="InputCity" PlaceholderText="Enter city name" Margin="10,10,10,0" Width="200" Grid.Row="0"/>
+        <TextBox x:ConnectionId='2' x:Name="InputCity" PlaceholderText="Enter city name" Margin="10,10,10,0" Width="200" Grid.Row="1"/>
 
         <!-- Button area -->
-        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" Margin="10,10,10,0">
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="10,10,10,0">
             <Button x:ConnectionId='6' Content="Show Weather"                              Margin="0,0,10,0"/>
             <Button x:ConnectionId='7' Content="Add City"                          Margin="0,0,10,0"/>
             <Button x:ConnectionId='8' x:Name="DeleteCityButton" Content="Delete City"                             Margin="0,0,10,0"/>
         </StackPanel>
 
         <!-- History list -->
-        <ListView x:ConnectionId='3' x:Name="ListCityView" Margin="10,10,10,0" HorizontalAlignment="Center" Grid.Row="2" SelectionMode="Single">
+        <ListView x:ConnectionId='3' x:Name="ListCityView" Margin="10,10,10,0" HorizontalAlignment="Center" Grid.Row="3" SelectionMode="Single">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
@@ -36,7 +48,7 @@
         </ListView>
 
         <!-- Weather display -->
-        <TextBlock x:ConnectionId='4' x:Name="WeatherTextBlock" TextWrapping="Wrap" FontSize="20" Margin="10" Grid.Row="3" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='4' x:Name="WeatherTextBlock" TextWrapping="Wrap" FontSize="20" Margin="10" Grid.Row="4" HorizontalAlignment="Center"/>
     </Grid>
 </Page>
 

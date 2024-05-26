@@ -10397,9 +10397,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\TemperatureConverter\\TemperatureConverter\\TemperatureConverter.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\TemperatureConverter\\TemperatureConverter\\Weather-App.csproj",
       "projectName": "TemperatureConverter",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\TemperatureConverter\\TemperatureConverter\\TemperatureConverter.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\TemperatureConverter\\TemperatureConverter\\Weather-App.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\andre\\source\\repos\\TemperatureConverter\\TemperatureConverter\\obj\\",
       "projectStyle": "PackageReference",
